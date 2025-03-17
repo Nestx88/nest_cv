@@ -1,0 +1,126 @@
+{
+    "pl": {
+        "firstName": "Paweł",
+        "surname": "Juszczyk",
+        "email": "pawel.juszczyk@gmail.com",
+        "phone": "+48 792 697 050",
+        "location": "Kraków, Polska",
+        "birthDate": "Data urodzenia: 09.11.1988",
+        "github": "Nestx88",
+        "instagram": "Nestx88",
+        "linkedin": "paw-jus",
+        "contact": "Kontakt",
+        "social": "Media społecznościowe",
+        "skills": "Umiejętności",
+        "languages": "Języki",
+        "interests": "Zainteresowania",
+        "education": "Wykształcenie",
+        "experience": "Doświadczenie zawodowe",
+        "projects": "Projekty",
+        "additional": "Dodatkowe informacje",
+        "consent": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)",
+        "footer": "Stworzone przez Pawła Juszczyka we współpracy z Grokiem (xAI), marzec 2025",
+        "skillsList": [
+            "Praca w zespole",
+            "Zdolności manualne",
+            "Cierpliwość i odpowiedzialność",
+            "Bardzo dobra znajomość Windows i podstawy Linuxa",
+            "Figma",
+            "Podstawowa znajomość HTML i CSS"
+        ],
+        "languagesList": [
+            "Polski - ojczysty",
+            "Angielski - zaawansowany"
+        ],
+        "interestsList": [
+            "Gry komputerowe",
+            "Komputery (serwis, sprzęt)",
+            "Sztuczna inteligencja AI modele LLM",
+            "Pogłębianie wiedzy"
+        ],
+        "educationList": [
+            {"date": "2010 - 2012", "detail": "<strong>AP Edukacja</strong> Policealna Szkoła Zawodowa, technik informatyk."},
+            {"date": "2007 - 2010", "detail": "<strong>Uniwersytet Rolniczy w Krakowie</strong> Wydział Inżynierii Produkcji."},
+            {"date": "2004 - 2007", "detail": "<strong>XXXI LO w Krakowie</strong> Liceum Ogólnokształcące, matura."}
+        ],
+        "experienceList": [
+            {"date": "05.2016 - obecnie", "detail": "<strong>TABOX Sp. z o.o.</strong> Magazynier, operator wózka widłowego."},
+            {"date": "09.2015 - 12.2015", "detail": "<strong>Wawel S.A.</strong> Pracownik produkcji, okres świąteczny."},
+            {"date": "11.2013 - 12.2013", "detail": "<strong>Bonito.pl</strong> Magazynier, okres świąteczny."},
+            {"date": "08.2013 - 08.2013", "detail": "<strong>STYLER Sp.j.</strong> Pracownik produkcyjny."},
+            {"date": "10.2012 - 08.2013", "detail": "<strong>Prace dorywcze</strong> Call center, dystrybucja ulotek."},
+            {"date": "09.2012 - 09.2012", "detail": "<strong>IVALIS Polska</strong> Pracownik inwentaryzacji."}
+        ],
+        "projectsList": [
+            {"date": "03.2025", "detail": "<strong>Strona CV</strong> Interaktywne CV stworzone z HTML, CSS i JS z funkcją generowania PDF."}
+        ],
+        "additionalList": [
+            "Certyfikat Windows Server 2016 (<a href='https://udemy-certificate.s3.amazonaws.com/image/UC-0eb4a910-c706-4d07-b6ac-9de23d4af216.jpg?fbclid=IwAR17ZEGaSAewpI49B2XfXNwNIg7WqbjXqtqEaZ8d4qeCBQr0DQqg1fXK7BA' target='_blank'>Udemy</a>)",
+            "Prawo jazdy kat. B",
+            "Kurs UDT na operatora wózka",
+            "Aktualne badania sanepidowskie"
+        ]
+    },
+    "en": {
+        "firstName": "Paweł",
+        "surname": "Juszczyk",
+        "email": "pawel.juszczyk@gmail.com",
+        "phone": "+48 792 697 050",
+        "location": "Krakow, Poland",
+        "birthDate": "Date of birth: 09/11/1988",
+        "github": "Nestx88",
+        "instagram": "Nestx88",
+        "linkedin": "paw-jus",
+        "contact": "Contact",
+        "social": "Social Media",
+        "skills": "Skills",
+        "languages": "Languages",
+        "interests": "Interests",
+        "education": "Education",
+        "experience": "Professional Experience",
+        "projects": "Projects",
+        "additional": "Additional Information",
+        "consent": "I consent to the processing of my personal data for the purposes necessary to carry out the recruitment process (in accordance with the Act of 10 May 2018 on the protection of personal data (Journal of Laws of 2018, item 1000) and in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (GDPR).",
+        "footer": "Created by Paweł Juszczyk with Grok (xAI), March 2025",
+        "skillsList": [
+            "Teamwork",
+            "Manual skills",
+            "Patience and responsibility",
+            "Very good knowledge of Windows and basics of Linux",
+            "Figma",
+            "Basic knowledge of HTML and CSS"
+        ],
+        "languagesList": [
+            "Polish - native",
+            "English - advanced"
+        ],
+        "interestsList": [
+            "Computer games",
+            "Computers (service, hardware)",
+            "Artificial intelligence AI LLM models",
+            "Deepening knowledge"
+        ],
+        "educationList": [
+            {"date": "2010 - 2012", "detail": "<strong>AP Edukacja</strong> Post-Secondary Vocational School, IT technician."},
+            {"date": "2007 - 2010", "detail": "<strong>University of Agriculture in Krakow</strong> Faculty of Production Engineering."},
+            {"date": "2004 - 2007", "detail": "<strong>XXXI LO in Krakow</strong> General Secondary School, high school diploma."}
+        ],
+        "experienceList": [
+            {"date": "05.2016 - present", "detail": "<strong>TABOX Sp. z o.o.</strong> Warehouse worker, forklift operator."},
+            {"date": "09.2015 - 12.2015", "detail": "<strong>Wawel S.A.</strong> Production worker, holiday season."},
+            {"date": "11.2013 - 12.2013", "detail": "<strong>Bonito.pl</strong> Warehouse worker, holiday season."},
+            {"date": "08.2013 - 08.2013", "detail": "<strong>STYLER Sp.j.</strong> Production worker."},
+            {"date": "10.2012 - 08.2013", "detail": "<strong>Casual jobs</strong> Call center, flyer distribution."},
+            {"date": "09.2012 - 09.2012", "detail": "<strong>IVALIS Polska</strong> Inventory worker."}
+        ],
+        "projectsList": [
+            {"date": "03.2025", "detail": "<strong>CV Website</strong> Interactive CV built with HTML, CSS, and JS with PDF generation feature."}
+        ],
+        "additionalList": [
+            "Windows Server 2016 Certificate (<a href='https://udemy-certificate.s3.amazonaws.com/image/UC-0eb4a910-c706-4d07-b6ac-9de23d4af216.jpg?fbclid=IwAR17ZEGaSAewpI49B2XfXNwNIg7WqbjXqtqEaZ8d4qeCBQr0DQqg1fXK7BA' target='_blank'>Udemy</a>)",
+            "Driving license category B",
+            "UDT forklift operator course",
+            "Current sanitary-epidemiological certificate"
+        ]
+    }
+}

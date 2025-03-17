@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CV Pawła Juszczyka - technik informatyk, magazynier, pasjonat AI i technologii.">
+        <meta name="keywords" content="CV, Paweł Juszczyk, informatyk, Kraków, magazynier, AI">
+        <title>CV - Paweł Juszczyk</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    </head>
+    <body>
+        <main class="container">
+            <!-- Lewy panel -->
+            <aside class="left-panel" role="complementary">
+                <div class="header-center">
+                    <img src="cv.jpeg" alt="Zdjęcie profilowe Pawła Juszczyka" class="profile-pic" loading="lazy" onerror="this.src='placeholder.jpg';">
+                    <h1 data-lang-key="firstName">Paweł</h1>
+                    <h2 class="surname" data-lang-key="surname">Juszczyk</h2>
+                </div>
+                
+                <section class="contact-section">
+                    <h3 data-lang-key="contact"><i class="fas fa-address-book"></i> Kontakt</h3>
+                    <p class="contact-info"><i class="fas fa-envelope"></i><a href="mailto:pawel.juszczyk@gmail.com" target="_blank" data-lang-key="email">pawel.juszczyk@gmail.com</a></p>
+                    <p class="contact-info"><i class="fas fa-phone"></i><a href="tel:+48792697050" target="_blank" data-lang-key="phone">+48 792 697 050</a></p>
+                    <p class="contact-info"><i class="fas fa-map-marker-alt"></i><span data-lang-key="location">Kraków, Polska</span></p>
+                    <p class="contact-info"><i class="fas fa-calendar-alt"></i><u data-lang-key="birthDate">Data urodzenia: 09.11.1988</u></p>
+                </section>
+
+                <section class="social-section">
+                    <h3 data-lang-key="social"><i class="fas fa-link"></i> Media społecznościowe</h3>
+                    <p class="social-links"><i class="fa-brands fa-github"></i><a href="https://github.com/Nestx88" target="_blank" data-lang-key="github">Nestx88</a></p>
+                    <p class="social-links"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/nestx88/" target="_blank" data-lang-key="instagram">Nestx88</a></p>
+                    <p class="social-links"><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/paw-jus/" target="_blank" data-lang-key="linkedin">paw-jus</a></p>
+                </section>
+
+                <section class="skills-section">
+                    <h3 data-lang-key="skills"><i class="fas fa-tools"></i> Umiejętności</h3>
+                    <p class="skills"><i class="fas fa-check"></i><span data-lang-key="skillsList.0">Praca w zespole</span></p>
+                    <p class="skills"><i class="fas fa-check"></i><span data-lang-key="skillsList.1">Zdolności manualne</span></p>
+                    <p class="skills"><i class="fas fa-check"></i><span data-lang-key="skillsList.2">Cierpliwość i odpowiedzialność</span></p>
+                    <p class="skills"><i class="fas fa-check"></i><span data-lang-key="skillsList.3">Bardzo dobra znajomość Windows i podstawy Linuxa</span></p>
+                    <p class="skills"><i class="fas fa-check"></i><span data-lang-key="skillsList.4">Figma</span></p>
+                    <p class="skills"><i class="fas fa-check"></i><span data-lang-key="skillsList.5">Podstawowa znajomość HTML i CSS</span></p>
+                </section>
+
+                <section class="languages-section">
+                    <h3 data-lang-key="languages"><i class="fas fa-globe"></i> Języki</h3>
+                    <p class="languages"><i class="fas fa-language"></i><span data-lang-key="languagesList.0">Polski - ojczysty</span></p>
+                    <p class="languages"><i class="fas fa-language"></i><span data-lang-key="languagesList.1">Angielski - zaawansowany</span></p>
+                </section>
+
+                <section class="interests-section">
+                    <h3 data-lang-key="interests"><i class="fas fa-heart"></i> Zainteresowania</h3>
+                    <p class="interests"><i class="fas fa-gamepad"></i><span data-lang-key="interestsList.0">Gry komputerowe</span></p>
+                    <p class="interests"><i class="fas fa-desktop"></i><span data-lang-key="interestsList.1">Komputery (serwis, sprzęt)</span></p>
+                    <p class="interests"><i class="fa-solid fa-brain"></i><span data-lang-key="interestsList.2">Sztuczna inteligencja AI modele LLM</span></p>
+                    <p class="interests"><i class="fas fa-book"></i><span data-lang-key="interestsList.3">Pogłębianie wiedzy</span></p>
+                </section>
+
+                <div class="button-container">
+                    <button id="language-toggle" class="language-toggle" aria-label="Przełącz język na polski lub angielski">PL/EN</button>
+                    <button id="download-pdf" class="download-btn" aria-label="Pobierz CV w formacie PDF">Pobierz PDF</button>
+                </div>
+            </aside>
+
+            <!-- Prawy panel -->
+            <section class="right-panel" role="main">
+                <section class="education-section">
+                    <h2 data-lang-key="education">Wykształcenie</h2>
+                    <article class="section">
+                        <p class="date" data-lang-key="educationList.0.date">2010 - 2012</p>
+                        <p class="details" data-lang-key="educationList.0.detail"><strong>AP Edukacja</strong> Policealna Szkoła Zawodowa, technik informatyk.</p>
+                    </article>
+                    <article class="section">
+                        <p class="date" data-lang-key="educationList.1.date">2007 - 2010</p>
+                        <p class="details" data-lang-key="educationList.1.detail"><strong>Uniwersytet Rolniczy w Krakowie</strong> Wydział Inżynierii Produkcji.</p>
+                    </article>
+                    <article class="section">
+                        <p class="date" data-lang-key="educationList.2.date">2004 - 2007</p>
+                        <p class="details" data-lang-key="educationList.2.detail"><strong>XXXI LO w Krakowie</strong> Liceum Ogólnokształcące, matura.</p>
+                    </article>
+                </section>
+                <section class="experience-section">
+                    <h2 data-lang-key="experience">Doświadczenie zawodowe</h2>
+                    <article class="section">
+                        <p class="date" data-lang-key="experienceList.0.date">05.2016 - obecnie</p>
+                        <p class="details" data-lang-key="experienceList.0.detail"><strong>TABOX Sp. z o.o.</strong> Magazynier, operator wózka widłowego.</p>
+                    </article>
+                    <article class="section">
+                        <p class="date" data-lang-key="experienceList.1.date">09.2015 - 12.2015</p>
+                        <p class="details" data-lang-key="experienceList.1.detail"><strong>Wawel S.A.</strong> Pracownik produkcji, okres świąteczny.</p>
+                    </article>
+                    <article class="section">
+                        <p class="date" data-lang-key="experienceList.2.date">11.2013 - 12.2013</p>
+                        <p class="details" data-lang-key="experienceList.2.detail"><strong>Bonito.pl</strong> Magazynier, okres świąteczny.</p>
+                    </article>
+                    <article class="section">
+                        <p class="date" data-lang-key="experienceList.3.date">08.2013 - 08.2013</p>
+                        <p class="details" data-lang-key="experienceList.3.detail"><strong>STYLER Sp.j.</strong> Pracownik produkcyjny.</p>
+                    </article>
+                    <article class="section">
+                        <p class="date" data-lang-key="experienceList.4.date">10.2012 - 08.2013</p>
+                        <p class="details" data-lang-key="experienceList.4.detail"><strong>Prace dorywcze</strong> Call center, dystrybucja ulotek.</p>
+                    </article>
+                    <article class="section">
+                        <p class="date" data-lang-key="experienceList.5.date">09.2012 - 09.2012</p>
+                        <p class="details" data-lang-key="experienceList.5.detail"><strong>IVALIS Polska</strong> Pracownik inwentaryzacji.</p>
+                    </article>
+                </section>
+                <section class="projects-section">
+                    <h2 data-lang-key="projects">Projekty</h2>
+                    <article class="section">
+                        <p class="date" data-lang-key="projectsList.0.date">03.2025</p>
+                        <p class="details" data-lang-key="projectsList.0.detail"><strong>Strona CV</strong> Interaktywne CV stworzone z HTML, CSS i JS z funkcją generowania PDF.</p>
+                    </article>
+                </section>
+                <section class="additional-info-section">
+                    <h2 data-lang-key="additional">Dodatkowe informacje</h2>
+                    <p><i class="fas fa-check"></i><span data-lang-key="additionalList.0">Certyfikat Windows Server 2016 (<a href='https://udemy-certificate.s3.amazonaws.com/image/UC-0eb4a910-c706-4d07-b6ac-9de23d4af216.jpg?fbclid=IwAR17ZEGaSAewpI49B2XfXNwNIg7WqbjXqtqEaZ8d4qeCBQr0DQqg1fXK7BA' target='_blank'>Udemy</a>)</span></p>
+                    <p><i class="fas fa-check"></i><span data-lang-key="additionalList.1">Prawo jazdy kat. B</span></p>
+                    <p><i class="fas fa-check"></i><span data-lang-key="additionalList.2">Kurs UDT na operatora wózka</span></p>
+                    <p><i class="fas fa-check"></i><span data-lang-key="additionalList.3">Aktualne badania sanepidowskie</span></p>
+                </section>
+                <section class="consent-section">
+                    <div class="consent-box">
+                        <p data-lang-key="consent">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji 
+                            procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych 
+                            (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego
+                             i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku
+                              z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).</p>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer class="footer">
+            <p data-lang-key="footer">Stworzone przez Pawła Juszczyka we współpracy z Grokiem (xAI), marzec 2025</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
